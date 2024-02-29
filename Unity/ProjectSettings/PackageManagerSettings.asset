@@ -1,5 +1,5 @@
 %YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
+%TAG !u! tag:yousandi.cn,2023:
 --- !u!114 &1
 MonoBehaviour:
   m_ObjectHideFlags: 61
@@ -13,32 +13,48 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_EnablePreReleasePackages: 0
-  m_EnablePackageDependencies: 1
   m_AdvancedSettingsExpanded: 1
   m_ScopedRegistriesSettingsExpanded: 1
   m_SeeAllPackageVersions: 0
+  m_DismissPreviewPackagesInUse: 0
   oneTimeWarningShown: 1
   m_Registries:
   - m_Id: main
     m_Name: 
-    m_Url: https://packages.unity.com
+    m_Url: https://packages.unity.cn
     m_Scopes: []
     m_IsDefault: 1
     m_Capabilities: 7
     m_ConfigSource: 0
-  - m_Id: scoped:project:package.openupm.com
-    m_Name: package.openupm.com
+  - m_Id: scoped:project:com.tuyoogame.yooasset
+    m_Name: com.tuyoogame.yooasset
     m_Url: https://package.openupm.com
     m_Scopes:
     - com.tuyoogame.yooasset
     m_IsDefault: 0
     m_Capabilities: 0
     m_ConfigSource: 4
-  m_UserSelectedRegistryName: package.openupm.com
+  - m_Id: scoped:project:com.cysharp.memorypack
+    m_Name: com.cysharp.memorypack
+    m_Url: https://package.openupm.com
+    m_Scopes:
+    - com.cysharp.memorypack
+    m_IsDefault: 0
+    m_Capabilities: 0
+    m_ConfigSource: 4
+  - m_Id: scoped:project:com.code-philosophy.hybridclr
+    m_Name: com.code-philosophy.hybridclr
+    m_Url: https://package.openupm.com
+    m_Scopes:
+    - com.code-philosophy.hybridclr
+    m_IsDefault: 0
+    m_Capabilities: 0
+    m_ConfigSource: 4
+  m_UserSelectedRegistryName: com.code-philosophy.hybridclr
   m_UserAddingNewScopedRegistry: 0
   m_RegistryInfoDraft:
     m_Modified: 0
     m_ErrorMessage: 
-    m_UserModificationsInstanceId: -828
-    m_OriginalInstanceId: -830
+    m_UserModificationsInstanceId: -850
+    m_OriginalInstanceId: -854
   m_LoadAssets: 0

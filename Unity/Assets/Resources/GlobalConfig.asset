@@ -1,5 +1,5 @@
 %YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
+%TAG !u! tag:yousandi.cn,2023:
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15,5 +15,5 @@ MonoBehaviour:
   CodeMode: 3
   EnableDll: 1
   BuildType: 1
-  AppType: 7
+  AppType: 8
   EPlayMode: 0

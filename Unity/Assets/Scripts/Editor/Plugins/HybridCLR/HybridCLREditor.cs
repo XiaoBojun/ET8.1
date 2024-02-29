@@ -19,13 +19,13 @@ namespace ET
                 Directory.Delete(toDir, true);
             }
             Directory.CreateDirectory(toDir);
-            
+
             foreach (string aotDll in HybridCLRSettings.Instance.patchAOTAssemblies)
             {
                 File.Copy(Path.Combine(fromDir, aotDll), Path.Combine(toDir, $"{aotDll}.bytes"), true);
             }
             Log.Debug($"CopyAotDll Finish!");
-            
+
             AssetDatabase.Refresh();
         }
     }
